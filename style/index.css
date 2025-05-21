@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to bottom, rgb(25, 25, 94) 0%, rgb(10, 10, 30) 100%);
+  font-family: Arial, sans-serif;
+  color: black;
+  min-height: 100vh;
+}
+
+.tituloP {
+  text-align: center;
+  color: white;
+  margin-top: 40px;
+  font-size: 28px;
+}
+
+
+.kvinzinn-img {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.kvinzinn-img img {
+  width: 200px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+
+.box-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+.box {
+  width: 300px;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: #f0f0f0;
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  text-align: center;
+}
+
+.box:hover {
+  transform: scale(1.05);
+  box-shadow: 8px 8px 20px rgba(0,0,0,0.2);
+}
+
+.box i {
+  font-size: 24px;
+  margin-bottom: 10px;
+  display: block;
+  color: black;
+}
+
+
+footer {
+      background-color: #33333300;
+      color: white;
+      text-align: center; 
+      padding: 10px 0; 
+      position: fixed;
+      left: 0;
+      bottom: 0; 
+      width: 100%; 
+    }
+
+a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
