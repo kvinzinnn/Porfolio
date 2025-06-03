@@ -6,8 +6,8 @@ A página de projetos está em construção. Ao acessar, um alerta simpático te
 ## 🎨 Tecnologias usadas
 
 - HTML5
-- CSS3 (com efeitos visuais e responsividade)
-- JavaScript (alerta simples)
+- CSS3 
+- JavaScript
 - Git & GitHub
 
 ## 📬 Contato
